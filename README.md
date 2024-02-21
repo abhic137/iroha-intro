@@ -7,7 +7,10 @@ To operate, Iroha requires a PostgreSQL database or RocksDB. If you prefer Postg
 
 Let’s start with creating a Docker network, so containers for Postgres and Iroha can run on the same virtual network and successfully communicate. In this guide we will call it iroha-network, but you can use any name. In your terminal write following command:
 Same for both ubuntu and Raspberry pi (ARM64)
-```sudo docker network create iroha-network```
+```
+sudo docker network create iroha-network
+
+```
 
 ## Starting PostgreSQL Container
 
