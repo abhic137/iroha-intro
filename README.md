@@ -1,5 +1,6 @@
 # iroha-intro
 Hyperledger Iroha getting started with. you will find instructions to run on ubuntu pc as well as on ubuntu pc ```Offical Documentation``` : https://iroha.readthedocs.io/en/main/index.html
+another ref: https://gino-busok.medium.com/running-iroha-instance-using-docker-compose-7dd29e1f7494
 
 ## Creating a Docker Network
 
@@ -66,6 +67,8 @@ git clone -b main https://github.com/hyperledger/iroha --depth=1
 Hint
 
 --depth=1 option allows us to download only the latest commit and save some time and bandwidth. If you want to get a full commit history, you can omit this option.
+If you want to run a single Iroha instance for you development needs, Iroha provided a very detailed document. You can find it here https://iroha.readthedocs.io/en/master/deploy/single.html. Just follow that and you should be good to go. But if you want an easier way then read on.
+
 
 ## Starting Iroha Container¶
 
