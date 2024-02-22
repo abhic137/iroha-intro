@@ -1,7 +1,7 @@
 # iroha-intro
 Hyperledger Iroha getting started with. you will find instructions to run on ubuntu pc as well as on ubuntu pc ```Offical Documentation``` : https://iroha.readthedocs.io/en/main/index.html
 another ref: https://gino-busok.medium.com/running-iroha-instance-using-docker-compose-7dd29e1f7494
-
+explorer ref: https://github.com/turuslan/iroha-explorer-backend
 ## Creating a Docker Network
 
 To operate, Iroha requires a PostgreSQL database or RocksDB. If you prefer PostgreSQL, you will need a container running it alongside Iroha.
